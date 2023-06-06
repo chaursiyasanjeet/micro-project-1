@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    background-color: #FFCD9E;
+    display: flex;
+    justify-content: space-between;
+    padding: 83px 136px;
+}
+
+.title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #282828;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: #484848;
+    margin-top: 28px;
+    margin-bottom: 15px;
+}
+
+.demo {
+    height: 81px;
+    width: 227px;
+    left: 136px;
+    top: 315px;
+    border-radius: nullpx;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.warning {
+    display: block;
+    color: white;
+    position: relative;
+    left: 34px;
+    top: 15px;
+
+
+}
+
+.email-input {
+    box-sizing: border-box;
+    border: 4px solid #000000;
+    width: 344px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    padding: 10px;
+    border-radius: px;
+
+
+}
+
+.register-button {
+    width: 216px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #282828;
+    color: white;
+    padding: 62px 191px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+ul li {
+    list-style: none;
+}
+
+.information {
+    text-align: right;
+}
